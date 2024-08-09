@@ -34,7 +34,7 @@ cd Final-password-manager
 To set up the application, use Docker Compose to build and start the Docker containers. Run the following command:
 
 ```bash
-docker-compose up --build
+docker-compose up --build -d
 ```
 
 This command will build the Docker images and start the containers as defined in the `docker-compose.yml` file. The `--build` flag ensures that the images are built from scratch, incorporating any changes to the code.
